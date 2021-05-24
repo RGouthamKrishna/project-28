@@ -19,7 +19,7 @@ function setup() {
 	world = engine.world;
 
 	mango1=new mango(1100,100,30);
-	stoneObj = new Stone(400,200);
+	stoneObj = new Stone(400,200,50);
 
 	treeObj=new tree(1050,580);
 	groundObject=new ground(width/2,600,width,20);
